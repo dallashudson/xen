@@ -1,14 +1,14 @@
 import React from "react";
-import { Link, withRouter } from "react-router-dom";
+import { Link, withRouter, Image } from "react-router-dom";
 
 function Navigation(props) {
   return (
     <div className="navigation">
       <nav class="navbar navbar-expand navbar-dark bg-dark">
         <div class="container">
-          <Link class="navbar-brand" to="/">
-            React Multi-Page Website
-          </Link>
+        <Link to="/">
+          <img src="/img/xenlogotrans.png" alt='Loogo' />
+        </Link>
 
           <div>
             <ul class="navbar-nav ml-auto">
