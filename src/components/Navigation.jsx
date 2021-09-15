@@ -1,4 +1,5 @@
 import React from "react";
+import logo from "images/xenlogotrans.png";
 import { Link, withRouter, Image } from "react-router-dom";
 
 function Navigation(props) {
@@ -7,7 +8,7 @@ function Navigation(props) {
       <nav class="navbar navbar-expand navbar-dark bg-dark">
         <div class="container">
         <Link to="/">
-          <img src="/img/xenlogotrans.png" alt='Loogo' />
+          <img src={logo} alt='Loogo' />
         </Link>
 
           <div>
