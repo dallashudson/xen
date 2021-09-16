@@ -3,7 +3,7 @@ import React from "react";
 import classNames from "classnames";
 // @material-ui/core components
 import { makeStyles } from "@material-ui/core/styles";
-import logo from '../../../src/assets/img/xenlogotrans.png'
+import logo from "../../../src/assets/img/xenlogotrans.png";
 
 // @material-ui/icons
 
@@ -15,8 +15,8 @@ import GridItem from "components/Grid/GridItem.js";
 import Button from "components/CustomButtons/Button.js";
 import HeaderLinks from "components/Header/HeaderLinks.js";
 import Parallax from "components/Parallax/Parallax.js";
-import Paper from "@material-ui/core/Paper";
-import Grid from "@material-ui/core/Grid";
+//import Paper from "@material-ui/core/Paper";
+//import Grid from "@material-ui/core/Grid";
 
 import styles from "assets/jss/material-kit-react/views/landingPage.js";
 

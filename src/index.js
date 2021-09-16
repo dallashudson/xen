@@ -7,7 +7,6 @@ import "assets/scss/material-kit-react.scss?v=1.10.0";
 
 import LandingPage from "views/LandingPage/LandingPage.js";
 
-
 var hist = createBrowserHistory();
 
 ReactDOM.render(
