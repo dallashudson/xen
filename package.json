@@ -11,6 +11,7 @@
     "classnames": "2.3.1",
     "moment": "2.29.1",
     "node-sass": "6.0.0",
+    "nodemon": "^2.0.12",
     "nouislider": "15.1.0",
     "prop-types": "15.7.2",
     "react": "17.0.2",
@@ -37,6 +38,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "live": "nodemon server.js -e ejs,js,css,html,jpg,png,scss",
     "build": "react-scripts build && gulp licenses",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
