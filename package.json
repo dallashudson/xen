@@ -10,6 +10,7 @@
     "@material-ui/icons": "4.11.2",
     "classnames": "2.3.1",
     "moment": "2.29.1",
+    "mui": "^0.0.1",
     "node-sass": "6.0.0",
     "nodemon": "^2.0.12",
     "nouislider": "15.1.0",

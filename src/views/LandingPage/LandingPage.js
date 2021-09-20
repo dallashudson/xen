@@ -15,8 +15,6 @@ import GridItem from "components/Grid/GridItem.js";
 import Button from "components/CustomButtons/Button.js";
 import HeaderLinks from "components/Header/HeaderLinks.js";
 import Parallax from "components/Parallax/Parallax.js";
-import Paper from "@material-ui/core/Paper";
-import Grid from "@material-ui/core/Grid";
 
 import styles from "assets/jss/material-kit-react/views/landingPage.js";
 
@@ -55,9 +53,10 @@ export default function LandingPage(props) {
         <div className={classes.container}>
           <GridContainer>
             <GridItem xs={12} sm={12} md={6}>
-              <GridItem xs={1} sm={1} md={1} className={classes.itemGrid}>
+              <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
                 <img src={logo} alt="..." className={imageClasses} />
               </GridItem>
+              <br />
               <h4>
                 The network for creators and artists that not only want to share
                 their unique vision with the world but also build a close
